@@ -1,0 +1,304 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengistu Portfolio</title>
+   <link rel="stylesheet" href="./Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <!--Into section-->
+   <div id="home" class="h-screen bg-gradient-to-t from-indigo-200 relative min-w-64 z-20 w-full">
+    <!--Nav bar-->
+    <nav class="w-full fixed top-0 bg-white z-20">
+        <div class="container mx-auto py-5 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <img class="mx-auto w-8 h-8 rounded-full object-cover" src="/Asset/my_dv_photo_111.jpg" />
+                <span class="text-2xl font-bold text-indigo-900">Mengistu</span>
+            </div>
+            <ul class="hidden md:flex space-x-10 text-black font-bold text-sm uppercase">
+                <li class="hover:text-gray-500">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#about">About me</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#services">Services</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#works">Works</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <img src="./Asset/starlogo.png" alt="STAR" class="hidden md:block cursor-pointer w-7 h-7 rounded-full object-cover" />
+            <div id="humburger" class="space-y-1 md:hidden cursor-pointer mx-1 z-20">
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+            </div>
+        </div>
+        <ul id="menu" class="md:hidden absolute w-full text-black font-bold text-sm uppercase bg-indigo-500 left-0 top-0 p-10 rounded-b-3xl space-y-10 text-center">
+            <li class="hover:text-gray-500">
+                <a href="#home">Home</a>
+            </li>
+            <li class="hover:text-gray-500">
+                <a href="#about">About me</a>
+            </li>
+            <li class="hover:text-gray-500">
+                <a href="#services">Services</a>
+            </li>
+            <li class="hover:text-gray-500">
+                <a href="#works">Works</a>
+            </li>
+            <li class="hover:text-gray-500">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Intro content -->
+    <img src="./Asset/image.png" class="absolute bottom-0 right-0 object-cover lg:left-0 mx-auto w-48 h-48 sm:w-48 sm:h-48 md:w-80 md:h-80 lg:w-80 lg:h-80 rounded-full shadow-emerald-950" />
+    <div class="absolute top-1/3 left-5 text-xl sm:left-10 md:1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-6xl font-bold">
+        <span id="seng" class="text-gray-700">Software</span>
+        <p id="text" class="text-red-400">Engineer</p>
+    </div>
+    <div class="hidden lg:flex flex-col absolute top-0 bottom-0 m-auto right-10 bg-white h-fit w-1/3 gap-4 p-6 rounded-md shadow-xl shadow-gray-500">
+        <h1 class="text-4xl font-bold text-indigo-500">Hi, I'm Mengistu,</h1>
+        <p class="font-semibold font-nunito text-sm">A software engineering student at Jimma University, graduating in 2026. I have experience in machine learning, data analysis, web development, and app development. I am currently seeking an internship to further develop my skills and gain hands-on industry experience by working together.</p>
+        <a href="#contact" class="cursor-pointer bg-indigo-400 text-black-600 w-fit rounded-xl items-center hover:bg-green-900 hover:text-white">
+            <h2 class="font-bold pl-3 pr-3">Let's connect</h2>
+        </a>
+    </div>
+</div>
+
+<!-- About Section -->
+<div id="about" class="px-10 dark:bg-slate-900 ">
+    <div class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20">
+        <!-- left -->
+        <div class="relative">
+            <div class="h-full rounded-md overflow-hidden shadow-gray-800">
+                <img src="./Asset/edit_about_photoe.jpg" alt="" class="rounded-b-3xl shadow-slate-900" />
+            </div>
+        </div>
+        <!-- right -->
+        <div class="my-auto flex flex-col gap-3">
+            <h1 class="text-indigo-600 font-bold uppercase">About me</h1>
+            <h1 class="text-black-400 text-3xl font-medium">Better software Quality</h1>
+            <h1 class="text-black-400 text-3xl font-medium">With Best functionality</h1>
+            <p>I am experienced upon the following languages:</p>
+            <h1>HTML</h1>
+            <div class="w-full rounded-md bg-gray-400 h-2">
+                <div class="w-full rounded-md bg-green-400 h-2"></div>
+            </div>
+            <h1>JavaScript</h1>
+            <div class="w-full rounded-md bg-gray-400 h-2">
+                <div class="w-3/4 rounded-md bg-green-400 h-2"></div>
+            </div>
+            <h1>React</h1>
+            <div class="w-full rounded-md bg-gray-400 h-2">
+                <div class="w-5/6 rounded-md bg-green-400 h-2"></div>
+            </div>
+            <h1>NextJS</h1>
+            <div class="w-full rounded-md bg-gray-400 h-2">
+                <div class="w-1/3 rounded-md bg-red-200 h-2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+     <!-- services -->
+    <div id="services" class="dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-1 items-center">
+          <h1 class="text-indigo-600 font-bold">SERVICES</h1>
+          <h1 class="text-3xl dark:text-white">What do I offer?</h1>
+          <p class="w-1/2 text-center text-gray-600 ">
+      
+I am eager to learn and apply my skills in Android development using Java, web development with React, and machine learning to solve real-world problems.
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex  space-x-6">
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            <img class="w-10" src="./img/icon.png" alt="" />
+            <h1 class="font-medium text-lg to-blue-600">Website development</h1>
+            <p class="text-gray-400">
+            "I have experience in website development using React, building dynamic and responsive web applications with a focus on user-friendly interfaces."
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href=""
+              >Read More</a
+            >
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            <img class="w-10" src="./img/icon.png" alt="" />
+            <h1 class="font-medium text-lg dark:text-white">Android App development</h1>
+            <p class="text-gray-400">
+            I have experience in Android development using Java, creating apps with functionalities like user registration, data management, and interactive interfaces.
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href=""
+              >Read More</a
+            >
+
+          </div>
+          <!-- card -->
+           
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            <img class="w-10" src="./img/icon.png" alt="" />
+            <h1 class="font-medium text-lg dark:text-white">Machine learning</h1>
+            <p class="text-gray-400">
+
+I am passionate about leveraging machine learning to solve real-world problems and have experience in projects like customer segmentation and predictive modeling.
+            </p>
+            <a class="text-indigo-600 font-semibold text-sm" href=""
+              >Read More</a
+            >
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+ <!-- wordk-->
+    <div id="works" class="py-20 dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 font-bold">PORTFOLIO</h1>
+          <h1 class="text-3xl dark:text-white">Works & Projects</h1>
+          <p class="w-1/2 text-start text-gray-400">
+           I have worked on projects like an Online Book Store using JavaFX, 
+       a Student Clearance Website, an Online Resources Platform for disabled support, and a machine learning-based Customer Segmentation System.
+        </div>
+        <!-- bottom -->
+        <div class="p-2 sm:p-0 flex flex-wrap justify-between ml-2 mr-2">
+          <!-- card -->
+          <div
+            class="p-4 w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+          >
+         
+            <img src="./Asset/online_book_store.png" class="p-4"/>
+             <h3 class="text-sm">Online Book Store in JavaFX </h3>
+          <p class="text-start text-gray-400 text-sm">
+            
+I Developed a desktop application using JavaFX for
+ managing book inventory.
+          </p>
+          </div>
+          <!-- card -->
+          <div
+            class="p-2 w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+          >
+         
+            <img src="./Asset/webaility.png" class="p-4"/>
+             <h3 class="text-sm">resources for disabled <a href="https://github.com/mengistu3137/Website_for_Disabled_persons" class="text-blue-800"> Visit here.. </a></h3>
+          <p class="text-start text-gray-400 text-sm">
+            
+The website provide different supports for disabled people
+          </p>
+          </div>
+          <!-- card -->
+          <div
+            class="p-2 w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+          >
+            <img src="./Asset/Home_page.jpg" class="p-4"/>
+             <h3 class="text-sm">Student Clearance for Jimma University  <a href="https://github.com/mengistu3137/Web_based_student_clearance_system_for_jimma_university" class="text-blue-800">Visit here...</a> </h3>
+          <p class="text-start text-gray-400 text-sm">
+            
+This website automate the manual process of clearance for students
+          </p>
+          </div>
+          <!-- card -->
+          <div
+            class="p-2 w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+          >
+            <img src="./Asset/Customer_segemntation.png" class="p-4"/>
+             <h3 class="text-sm">Customer segementation </h3>
+          <p class="text-start align-middle  text-gray-400 text-sm" >
+Machine learning project cluster customers based on their demographic,geographic and psychographic behavoir. 
+       </p>
+          </div>
+          <!-- card -->
+        </div>
+
+      </div>
+    </div>
+
+     <!-- contact -->
+    <div id="contact" class="dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 font-bold">CONTACT</h1>
+          <h1 class="text-3xl dark:text-white">Have a Question?</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            Do you have an idea? Let's discuss it and see what we can do
+            together.
+          </p>
+        </div>
+        <!-- bottom -->
+        <form class="mt-5 p-8 flex flex-col gap-5 items-center">
+          <input
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            type="text"
+            placeholder="Name Surname"
+          />
+          <input
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            type="email"
+            placeholder="Email"
+          />
+          <textarea
+            class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+            cols="30"
+            rows="10"
+            placeholder="Message..."
+          ></textarea>
+          <button
+            class="w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="w-full bg-gray-800">
+      <div class="container mx-4 py-5 flex items-center justify-around">
+        <div class="flex items-center gap-2 mx-3">
+          <img class="w-8  h-8 object-cover rounded-full" src="./Asset/my_dv_photo_111.jpg " alt="" />
+          <span class="font-bold text-white text-sm">Mengistu.</span>
+        </div>
+        <span class="hidden md:block font-medium text-white text-sm"
+          >© 2024  portfolio Design by Mengistu  Tadesse.</span
+        >
+        <div class="flex gap-8">
+        <a href="https://web.facebook.com/?_rdc=1&_rdr#"> <img class="w-4 cursor-pointer" src="./img/facebook.png" alt="" /></a> 
+        <a href="https://www.instagram.com/mengistu313?igsh=ZXoxeXFqcjB0OHUx"><img class="w-4 cursor-pointer" src="./img/instagram.png" alt="" /></a>  
+          <a href="https://x.com/mengistu3137"><img class="w-4 cursor-pointer" src="./img/twitter.png" alt="" /></a>
+         <a href="https://www.linkedin.com/in/mengistu-tadesse-1a07a82a9/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BbuXXPea%2FTimx37piRONMMg%3D%3D"><img class="w-4 cursor-pointer" src="./img/linkedin.png" alt="" /></a> 
+        </div>
+      </div>
+    </div>
+        <script src="./App.js"></script>
+    <script src="./authotyping.js"></script>
+</body>
+</html>
